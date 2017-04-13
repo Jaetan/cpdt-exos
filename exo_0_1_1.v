@@ -6,8 +6,6 @@
    implementation of ¡Èor.¡É
  *)
 
-Require Import Bool.
-
 Inductive truth : Set :=
 | Yes : truth
 | No : truth
